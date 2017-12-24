@@ -1,9 +1,13 @@
 $(document).ready(
     ()=>{
+        let searchText= $('#searchMobi').val();
+        getMovies(searchText);
+        
         $('#searchForm').on('submit',(e)=>{
-            let searchText=$('#searchMobi').val();
+            searchText= $('#searchMobi').val();
             getMovies(searchText);
             console.log(searchText);
+            
             e.preventDefault();
         });
     });

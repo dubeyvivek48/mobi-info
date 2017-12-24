@@ -25,6 +25,9 @@ body{
     
 }
 
+
+@media(min-width:960){
+
 #mobi .col-md-3 .well{
     height :390px;
     color:rgb(228, 213, 213);
@@ -33,6 +36,17 @@ body{
 #mobi .col-md-3 img{
     height: 240px;
 }
+}
+#mobi .col-md-3 .well{
+    height :390px;
+    color:rgb(228, 213, 213);
+}
+
+#mobi .col-md-3 img{
+    height: 240px;
+}
+
+
 .col-md-3{
     padding-bottom: 7vh;
 }
