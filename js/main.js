@@ -8,7 +8,7 @@ $(document).ready(
         });
     });
     function getMovies(searchText){
-        axios.get('http://www.omdbapi.com?s='+searchText)
+        axios.get('http://www.omdbapi.com/?s='+searchText +'&apikey=34d9da6c')
         .then( (Response)=>{
             console.log(Response);
         })
