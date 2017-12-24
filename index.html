@@ -11,9 +11,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap
-    
-    <link href="css/mdb.min.css" rel="stylesheet">
     -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    
     
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
@@ -37,23 +37,28 @@
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-            <a href="index.html" class="navbar-brand">MobiInfo</a>
+            <a href="index.html" class="navbar-brand"> <span class="mobi">Mobi</span><span class="mobi-y">Info</span></a>
         </div>
+        <form class="form-inline" id="searchForm">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search Movies" id="searchMobi" aria-label="Search">
+        </form>
     </div>
 </nav>
-
-
+<br>
+<br>
+<!--
 <div class="container">
     <div class="jumbotron">
         <h3 class="text-center">
             Search for any Movies
         </h3>
         <form  id="searchForm">
-            <input type="text" class="form-control" id="searchMobi" placeholder="Search Movie">
+            <input type="text" class="form-control"  placeholder="Search Movie">
 
         </form>
     </div>
 </div>
+-->
 
 <div class="container">
     <div id="mobi" class="row">
@@ -74,9 +79,10 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core 
+    <!-- MDB core JavaScript -->
          <script type="text/javascript" src="js/mdb.min.js"></script>
-    JavaScript -->
+         <script type="text/javascript" src="js/main.js"></script>
+    
    
 </body>
 

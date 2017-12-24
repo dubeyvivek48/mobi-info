@@ -1,1 +1,14 @@
 /* Your custom styles */
+body{
+    background-color: #22313F;
+}
+.jumbotron{
+    background-color: #1a6991;
+}
+.mobi{
+    color:#CF000F;
+}
+
+.mobi-y{
+    color:#95A5A6;
+}
