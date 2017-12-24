@@ -44,10 +44,10 @@ $(document).ready(
     }
 
     function getMovie(){
-        let movieId=sessionStorage.getItem(movieId);
+        let movieId=sessionStorage.getItem('movieId');
 
 
-        axios.get('http://www.omdbapi.com/?i='+movieId +'&apikey=34d9da6c')
+        axios.get('http://www.omdbapi.com/?i='+movieId )
         .then( (Response)=>{
             console.log(Response);
                         
