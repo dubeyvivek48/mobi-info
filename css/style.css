@@ -5,6 +5,12 @@ body{
 .jumbotron{
     background-color: #1a6991;
 }
+
+#searchMobi{
+    color:#fff;
+}
+
+
 .mobi{
     color:#CF000F;
 }
