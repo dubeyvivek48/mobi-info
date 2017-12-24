@@ -35,5 +35,26 @@ $(document).ready(
         })
         .catch((err)=>{
             console.log(err);
+        });
+    }
+    function movieSlected(id){
+        sessionStorage.setItem('movieId',id);
+        window.location='mobi.html';
+        return false;
+    }
+
+    function getMovie(){
+        let movieId=sessionStorage.getItem(movieId);
+
+
+        axios.get('http://www.omdbapi.com/?i='+movieId +'&apikey=34d9da6c')
+        .then( (Response)=>{
+            console.log(Response);
+                        
         })
+        .catch((err)=>{
+            console.log(err);
+        })
+
+
     }
