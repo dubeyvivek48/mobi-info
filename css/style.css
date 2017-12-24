@@ -50,7 +50,14 @@ body{
 .col-md-3{
     padding-bottom: 7vh;
 }
+#mobiInfo{
+    background-color: #191919;
+}
+#mobiInfo .list-group-item{
+    background-color: #2F2F2F;
+    color:#979797;
+}
 
-.well{
+.col-md-3 .well{
         background-color: rgb(9, 10, 12)
 }

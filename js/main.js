@@ -56,7 +56,8 @@ $(document).ready(
             <img src="${movie.Poster}" class="thumbnail">
             </div>
             <div class="col-md-8">
-                <h2>${movie.Title}</h2>
+            <br>
+                <h2 style="color:#fff">${movie.Title}</h2>
                 <ul class="list-group">
                 <li class="list-group-item"><strong>   Genre: </strong>${movie.Genre}</li>
                 <li class="list-group-item"><strong>   Released: </strong>${movie.Released}</li>
@@ -70,15 +71,23 @@ $(document).ready(
                 </ul>
             </div>
             </div>
-            <div class="row">
-            <div class="well">
-            <h3>Plot</h3>
+            <br>
+            <br>
+
+            <div class="row" >
+            <div class="col-md-1"></div>
+            <div class="col-md-10 " style="background-color: #2F2F2F">
+            <div class="well" style="color:#979797">
+            <h3 style="color:#fff">Plot</h3>
             ${movie.Plot}
             <hr>
             <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
             <a href="index.html"  class="btn btn-default">Go back to search</a>
 
             </div>
+            </div>
+            
+            <div class="col-md-1"></div>
             </div>
 
 
