@@ -59,5 +59,8 @@ body{
 }
 
 .col-md-3 .well{
-        background-color: rgb(9, 10, 12)
+        background-color: rgb(9, 10, 12);
+}
+.navbar{
+    border-bottom: 1px solid #0e7ce2;
 }

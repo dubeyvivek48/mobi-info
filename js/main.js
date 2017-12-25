@@ -1,6 +1,10 @@
 $(document).ready(
     ()=>{
         let searchText= $('#searchMobi').val();
+        console.log(searchText.length);
+        if(searchText.length==0){
+            searchText='home';
+        }
         getMovies(searchText);
         
         $('#searchForm').on('submit',(e)=>{
